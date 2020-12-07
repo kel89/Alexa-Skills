@@ -1,0 +1,155 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "raspberry pi",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhatsGoodIntent",
+                    "slots": [],
+                    "samples": [
+                        "what good",
+                        "what is good",
+                        "what's good"
+                    ]
+                },
+                {
+                    "name": "VolumeUp",
+                    "slots": [],
+                    "samples": [
+                        "turn the volume up a notch",
+                        "turn the volume up",
+                        "turn volume up",
+                        "make it louder",
+                        "volume up a notch",
+                        "volume up"
+                    ]
+                },
+                {
+                    "name": "ReceiverOff",
+                    "slots": [],
+                    "samples": [
+                        "power down denon",
+                        "power down the receiver",
+                        "turn the denon off",
+                        "turn denon off",
+                        "denon off",
+                        "receiver off",
+                        "turn the receiver off"
+                    ]
+                },
+                {
+                    "name": "ReceiverOn",
+                    "slots": [],
+                    "samples": [
+                        "power on denon",
+                        "power on receiver",
+                        "turn denon on",
+                        "turn the denon on",
+                        "denon on",
+                        "receiver on",
+                        "turn the receiver on"
+                    ]
+                },
+                {
+                    "name": "VolumeDown",
+                    "slots": [],
+                    "samples": [
+                        "volume down a notch",
+                        "volume down",
+                        "turn the volume down a notch",
+                        "turn denon volume down",
+                        "turn receiver volume down",
+                        "turn the volume down",
+                        "turn volume down"
+                    ]
+                },
+                {
+                    "name": "Mute",
+                    "slots": [],
+                    "samples": [
+                        "turn the volume off",
+                        "mute denon",
+                        "mute",
+                        "mute the receiver"
+                    ]
+                },
+                {
+                    "name": "Unmute",
+                    "slots": [],
+                    "samples": [
+                        "unmute denon",
+                        "unmute the receiver",
+                        "turn the volume on",
+                        "unmute"
+                    ]
+                },
+                {
+                    "name": "InputFireTV",
+                    "slots": [],
+                    "samples": [
+                        "input to blue ray",
+                        "input to fire tv",
+                        "change input to fire tv"
+                    ]
+                },
+                {
+                    "name": "SetVolume",
+                    "slots": [
+                        {
+                            "name": "level",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "change denon volume to {level}",
+                        "change receiver volume to {level}",
+                        "change volume to {level}",
+                        "set denon volume to {level}",
+                        "set receiver volume to {level}",
+                        "volume to {level}",
+                        "set volume to {level} "
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
